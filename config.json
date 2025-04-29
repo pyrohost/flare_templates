@@ -1,0 +1,41 @@
+{
+    "egg_authors": {
+        "node.js generic": {
+            "name": "parker@parkervcp.com",
+            "email": "parker@parkervcp.com"
+        },
+        "paper": {
+            "name": "parker@pterodactyl.io",
+            "email": "parker@pterodactyl.io"
+        },
+        "purpur": {
+            "name": "purpur@birdflop.com",
+            "email": "purpur@birdflop.com"
+        }
+    },
+    "repository": "https://github.com/pyrohost/flare_templates",
+    "egg_locations": [
+        "https://github.com/pyrohost/flare_templates/code",
+        "https://github.com/pyrohost/flare_templates/games"
+    ],
+    "eggs": [
+        {
+            "name": "node.js generic",
+            "description": "a generic node.js egg\r\n\r\nThis will clone a git repo. it defaults to master if no branch is specified.\r\n\r\nInstalls the node_modules on install. If you set user_upload then I assume you know what you are doing.",
+            "image": "ghcr.io/parkervcp/yolks:nodejs_18",
+            "author": "parker@parkervcp.com"
+        },
+        {
+            "name": "Paper",
+            "description": "High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.",
+            "image": "ghcr.io/parkervcp/yolks:java_17",
+            "author": "parker@pterodactyl.io"
+        },
+        {
+            "name": "Purpur",
+            "description": "A drop-in replacement for Paper servers designed for configurability, and new fun and exciting gameplay features.",
+            "image": "ghcr.io/parkervcp/yolks:java_17",
+            "author": "purpur@birdflop.com"
+        }
+    ]
+}
